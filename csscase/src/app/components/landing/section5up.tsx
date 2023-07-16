@@ -30,7 +30,7 @@ export default function Section5Up() {
     ]
 
     return (
-        <div className="flex flex-col gap-8 py-12 px-4 lg:gap-20 lg:px-20 lg:pt-20 lg:pb-32 bg-[#fffdf3]">
+        <div className="flex flex-col gap-8 py-12 px-4 lg:gap-20 lg:px-20 lg:pt-20 lg:pb-32 bg-[#fffdf3]  ">
             <div className="flex flex-col gap-8 text-center lg:text-left">
                 <div className="text-[32px] font-bold lg:text-[56px] lg:font-extrabold">
                     Grow your collection
@@ -54,7 +54,6 @@ export default function Section5Up() {
 
                 </div>
                 <div className="relative lg:flex lg:w-1/3">
-
                     <div className="absolute h-full w-full lg:top-0 top-20">
                         <img className="h-[160px] w-[290px] lg:w-full lg:h-full" src={"/images/cardimg1.svg"} />
                     </div>

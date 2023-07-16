@@ -58,15 +58,15 @@ export default function Footer() {
                             <img src="/images/appstore.svg" width={120} height={40} />
                         </div>
                         <div className="flex flex-col items-center lg:items-start">
-                        <div className="text-base pt-12 pb-3">Follow Us</div>
-                        <div className="flex gap-4">
-                            {
-                                icons.map((item: string, i: number) => {
-                                    return <img src={`/icons/${item}.svg`} />
-                                })
-                            }
+                            <div className="text-base pt-12 pb-3">Follow Us</div>
+                            <div className="flex gap-4">
+                                {
+                                    icons.map((item: string, i: number) => {
+                                        return <img key={i} src={`/icons/${item}.svg`} />
+                                    })
+                                }
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
 
