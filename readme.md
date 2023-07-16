@@ -1,0 +1,1 @@
+I have coded both project using tailwind and nextjs. You can run them with the command "npm run dev"
